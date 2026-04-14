@@ -10,22 +10,6 @@
 
 这类 DLL 往往只是“出事地点”，不一定是真正根因。这个工具的目标就是把“共享根因”尽量找出来。
 
-## 这个名字为什么更合适
-
-我把项目名定成 `Windows Crash Doctor`，原因很简单：
-
-- 好懂，不拐弯
-- 英文搜索友好
-- 用户很容易用自然语言搜到它
-
-常见能搜到它的英文关键词包括：
-
-- `windows app crash`
-- `KERNELBASE.dll crash`
-- `MSVCP140.dll crash`
-- `random software crashes on Windows`
-- `many apps crashing after VPN install`
-
 ## 功能
 
 - 读取最近的 `Application Error` 事件日志

@@ -13,16 +13,6 @@ This project is designed for the frustrating Windows pattern where many apps fai
 
 Those DLLs are often where the crash surfaces, not where the real problem starts.
 
-## Why this name
-
-`Windows Crash Doctor` is intentionally simple and searchable. People looking for help usually search with plain-English phrases such as:
-
-- `windows app crash`
-- `KERNELBASE.dll crash`
-- `MSVCP140.dll crash`
-- `random software crashes on Windows`
-- `many apps crashing after VPN install`
-
 ## Features
 
 - Scans recent `Application Error` events from Event Viewer.
